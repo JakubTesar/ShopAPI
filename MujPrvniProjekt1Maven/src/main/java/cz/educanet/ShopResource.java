@@ -43,7 +43,7 @@ public class ShopResource {
     List<Product> featured = new ArrayList<>();
     List<Product> other = new ArrayList<>();
     Shop shop = new Shop(featured, other);
-    public void start(){
+    public void start() {
         String[] inputSplit = input.split("\n");
         for (int i = 1; i < inputSplit.length; i++) {
             String[] p = inputSplit[i].split(",");
