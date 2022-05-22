@@ -91,20 +91,18 @@ public class PaintingsResource {
             Paint paint = new Paint(p[3].replace("\"", ""), p[1].replace("\"", ""),
                     new Price(convertValue(p[4]), convertValue(p[5])));
             String pp = p[2].replace("\"", "");
-            if (!painters.containsKey(pp)){
+            if (!painters.containsKey(pp)) {
                 painters.put(pp, new ArrayList<>());
                 authors.add(pp);
             }
             painters.get(pp).add(paint);
-
         }
     }
 
     @GET
     public Response getAllClubs() {
         start();
-        return Response.ok(painters
-        ).build();
+        return Response.ok(painters).build();
     }
 
     @GET

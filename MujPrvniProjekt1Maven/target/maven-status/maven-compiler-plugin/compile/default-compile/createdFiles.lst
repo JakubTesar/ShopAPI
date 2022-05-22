@@ -4,6 +4,8 @@ cz\educanet\pain\Price.class
 cz\educanet\fotbal\Klub.class
 cz\educanet\movies\Movie.class
 cz\educanet\UserResource.class
+music\Interperts.class
+music\MusicResource.class
 cz\educanet\pain\PaintingsResource.class
 cz\educanet\pain\Painter.class
 cz\educanet\Product.class
@@ -13,6 +15,7 @@ cz\educanet\games\Games.class
 cz\educanet\domains\DomainResoource.class
 cz\educanet\PokemonResource.class
 cz\educanet\pain\Paint.class
+music\Music.class
 cz\educanet\ApplicationConfig.class
 cz\educanet\fotbal\FotbalResource.class
 cz\educanet\movies\MoviesResouorce.class
